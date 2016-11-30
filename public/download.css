@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+}
+#back{
+	margin: 50px;
+}
+
+.result{
+	margin: 10px;
+	text-align: center;
+	
+}
+#result9{
+	margin: 0;
+   padding-bottom: 10px;
+}
+#result10{
+	margin: 0;
+   padding-bottom: 10px;
+}
+#result11{
+	margin: 0;
+   padding-bottom: 10px;
+}
+#result12{
+	margin: 0;
+   padding-bottom: 10px;
+}
+#back{
+	
+	position: center;
+}
+#head{
+	color: #ffffff;
+	text-align: center;
+}
+#but{
+	border: 0;
+	background-color:  #012823 !important;
+}
+body{
+    
+    height :100%;
+    background: url("back.jpeg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     
+}
+.jumbotron{
+	background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+}
+p{
+	padding: 25px;
+	font-size: 25px;
+   color: #ffffff;
+	text-align: center;
+}
+#c9{
+	cursor: pointer;
+   padding-bottom: 25px;
+}
+#c10{
+cursor: pointer;
+  padding-bottom: 25px;
+}
+
+#c11{
+	cursor: pointer;
+  padding-bottom: 25px;
+}
+
+#c12{
+  cursor: pointer;
+  padding-bottom: 25px;
+}
+
+#wrapper3{
+    height:100%;
+}
+
+#classname{
+
+}
+
+#data_show{
+	
+}

@@ -1,0 +1,109 @@
+doctype html
+html(lang='en')
+  head
+    title Download
+    meta(charset='UTF-8')
+    meta(name='description', content='Home tuition in varanasi. Home tuition with coaching like facilities:\
+    1. At SCHOLUP we provide students with specialized teachers according to their requirement. If a student wants to study more than subject then we arrange teachers which are best for individual subjects.\
+    2. If you are not satisfied with the tutor you can change him/her at any point of time.\
+    3. We provide monthly test papers and assessment.')
+    meta(http-equiv='Content-Type', content='text/html; charset=ISO-8859-1')
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    // jQuery library
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
+    // Latest compiled JavaScript
+    script(src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    link(type='text/css', rel='stylesheet', href='public/download.css')
+    script(type='text/javascript').
+      $(document).ready(function(){
+      $('#c9').click(function(){
+      $('.selector').hide();
+      $('#result9,#back').show();
+      $('#classname').show();
+      $('#9tag').show();
+      });
+      $('#c10').click(function(){
+      $('.selector').hide();
+      $('#result10,#back').show();
+      $('#classname').show();
+      $('#10tag').show();
+      });
+      $('#c11').click(function(){
+      $('.selector').hide();
+      $('#result11,#back').show();
+      $('#classname').show();
+      $('#11tag').show();
+      });
+      $('#c12').click(function(){
+      $('.selector').hide();
+      $('#result12,#back').show();
+      $('#classname').show();
+      $('#12tag').show();
+      });
+      $('#back').click(function(){
+      $('#result9,#result10,#result11,#result12').hide();
+      $('.selector').show();
+      $(this).hide();
+      $('#classname').hide();
+      $('#9tag').hide();
+      $('#10tag').hide();
+      $('#11tag').hide();
+      $('#12tag').hide();
+      })
+      })
+  body
+    #wrapper3
+      .jumbotron
+        h1#head DOWNLOAD PRACTICE SHEETS
+      #data_show
+        .selector(padding='50px')
+          #c9.col-md-3.col-sm-6
+            p Click here for class IX
+          #c10.col-md-3.col-sm-6
+            p Click here for class X
+          #c11.col-md-3.col-sm-6
+            p Click here for class XI
+          #c12.col-md-3.col-sm-6
+            p Click here for class XII
+        #back(align='center', hidden='')
+          button#but.btn.btn-info.btn-lg(type='button') Back to classes
+        #classname(hidden='')
+          p#9tag(hidden='') Class IX
+          p#10tag(hidden='') Class X
+          p#11tag(hidden='') Class XI
+          p#12tag(hidden='') Class XII
+        .result
+          #result9(hidden='')
+            .col-md-6
+              a(href='./data/IX1Mathematics.pdf', download='')
+                p Click to download Mathematics chapter 1
+            .col-md-6
+              a(href='./data/IX1Science.pdf', download='')
+                p Click to download Science chapter 1
+          #result10(hidden='')
+            .col-md-6
+              a(href='./data/X1Mathematics.pdf', download='')
+                p Click to download Mathematics chapter 1
+            .col-md-6
+              a(href='./data/X1Science.pdf', download='')
+                p Click to download Science chapter 1
+          #result11(hidden='')
+            .col-md-6
+              a(href='./data/XI1Mathematics.pdf', download='')
+                p Click to download Mathematics chapter 1
+            .col-md-6
+              a(href='./data/XI1Physics.pdf', download='')
+                p Click to download Physics chapter 1
+            .col-md-6
+              a(href='./data/XI1Chemistry.pdf', download='')
+                p Click to download science chapter 1
+          #result12(hidden='')
+            .col-md-6
+              a(href='./data/XII1Mathematics.pdf', download='')
+                p Click to download Mathematics chapter 1
+            .col-md-6
+              a(href='./data/XII1Physics.pdf', download='')
+                p Click to download Physics chapter 1
+            .col-md-6
+              a(href='./data/XII1Chemistry.pdf', download='')
+                p Click to download Chemistry chapter 1

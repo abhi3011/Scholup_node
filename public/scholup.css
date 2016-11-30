@@ -1,0 +1,223 @@
+body{
+     position: relative;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    background: url("back.jpeg") no-repeat top center fixed;
+     
+}
+
+.wrapper{
+  height: 100%;
+  margin: 0;
+}
+.nav{
+  padding-right: 10px;
+}
+.navbar{
+  margin:0;
+  background-color: #ffffff;
+}
+
+.jumbotron-1 {
+	 
+    margin: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.3);
+    min-height: 650px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+}
+
+.jumbotron-2{
+    margin: 0;
+    
+
+}
+
+.jumbotron-3{
+   
+   background-color: #ffffff;
+   margin: 0;
+   min-height: 80px; 
+}
+
+.jumbotron-4{
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color:#012823;
+  height:55px;
+}
+.jumbotron-5{
+  padding: 0 !important;
+  margin: 0 !important;
+ height:100%;
+  background: rgb(52, 42, 28);
+    background: rgba(52, 42, 28);
+}
+
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.thumbnail{
+  border: 0 none;
+  box-shadow: none;
+}
+
+.container-fluid{
+  border: 0;
+  padding: 0;
+}
+
+.col-sm-6{
+
+  padding: 0;
+}
+
+.col-sm-6 div{
+  margin-bottom: 0;
+}
+
+#form{
+padding-left: 50px;
+}
+
+.navbar-brand{
+  font-size: 1.8em !important;
+  color: #012823 !important;
+  padding-left: 40px;
+}
+
+
+#heading{
+  text-align: center;
+  color: #ffffff;
+}
+
+#heading2{
+  text-align: center;
+  color: #ffffff;
+}
+
+#heading3{
+  text-align: center;
+  color: #ffffff;
+}
+
+#heading4{
+  text-align: center;
+  color: #ffffff;
+}
+
+#heading5{
+  text-align: center;
+  color: #ffffff;
+}
+#coheading{
+  color: #ffffff;
+  text-align: center;
+}
+
+#mail{
+
+}
+
+#about_us{
+  padding-top: 40px;
+  background-color: #ffffff;
+}
+
+#fa{
+  padding-top: 20px;
+}
+
+#btn_mail{
+  padding-top: 10px;
+  background-color:  #012823 !important;
+  border: 0;
+  width:233px;
+}
+
+#btn_dwn{
+  padding-top: 10px;
+  background-color:  #012823 !important;
+  border: 0;
+  
+}
+
+#tut_mail{
+  background-color:  #012823 !important;
+  border:0;
+
+}
+
+#teacher{
+  background: rgb(52, 42, 28);
+    background: rgba(52, 42, 28);
+}
+
+#faq_head{
+  padding-bottom: 50px;
+}
+
+#st_faq1{
+   background-color:  #012823 !important;
+  border: 0;
+  
+}
+
+#tch_faq1{
+ background-color:  #012823 !important;
+  border: 0;
+
+}
+
+#faq_bucket{
+  padding-bottom: 20px;
+}
+
+#close{
+   background-color:  #012823 !important;
+   
+}
+
+#myModal{
+  
+}
+
+#foxyform{
+  
+}
+
+#small{
+  font-size: 20px !important; 
+}
+#download{
+  
+  background-color:  #012823 !important;
+  border:0;
+}
+
+#but_wrap{
+  padding: 25px;
+}
+
+#new{
+  cursor: pointer;
+}
+#teacher_form{
+  background-color:  #012823 !important;
+  border:0;
+
+}
+#teacher_form_div{
+  padding: 25px;
+}

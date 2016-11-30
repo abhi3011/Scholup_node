@@ -1,0 +1,70 @@
+doctype html
+html(lang='en')
+  head
+    title FAQ
+    meta(charset='UTF-8')
+    meta(name='description', content='Home tuition in varanasi. Home tuition with coaching like facilities:\
+    1. At SCHOLUP we provide students with specialized teachers according to their requirement. If a student wants to study more than subject then we arrange teachers which are best for individual subjects.\
+    2. If you are not satisfied with the tutor you can change him/her at any point of time.\
+    3. We provide monthly test papers and assessment.')
+    meta(http-equiv='Content-Type', content='text/html; charset=ISO-8859-1')
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    // jQuery library
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
+    // Latest compiled JavaScript
+    script(src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    link(type='text/css', rel='stylesheet', href='public/new.css')
+  body
+    .jumbotron
+      h1#heading FREQUENTLY ASKED QUESTIONS
+    .wrap
+      .text
+        p.question 1. What is Scholup?
+        p
+          | A. Scholup provides quality home tuition. We provide tutors who come to your home and help your child build a strong foundation in various subjects.
+        p.question
+          | 2. What is so special about Scholup? There are competing home tuition bureaus in the market.
+        p
+          | A. A tuition bureau’s job is finished after providing you with a tutor.  We manage the student’s whole syllabus providing practice worksheets and test along with the tuition. In the unlikely event of a tutor leaving, he is replaced within 2-3 working days. The new tutor will start from where the previous tutor left. As opposed to in the case of tuition bureau where you have to search the new tutor and explain the new teacher about completed course.
+        p.question 3. I am a student or a parent looking for home tuition. How do I contact you?
+        p
+          | A. You can fill out the form 
+          a#form(data-toggle='modal', data-target='#myModal') here
+          | , we will get in touch with you as soon as possible. Or you can call us at +91-7571085304.
+          | According to your requirement we will send a teacher to your home. If you are satisfied with the teacher, he will start from the next day.
+        #myModal.modal.fade(role='dialog')
+          .modal-dialog
+            // Modal content
+            .modal-content
+              .modal-header
+                button.close(type='button', data-dismiss='modal') ×
+                h4.modal-title Happy to hear from you
+              .modal-body
+                #foxyform
+                  // mailing code!
+                  a#foxyform_embed_link_792227(align='center', href='http://www.foxyform.com/') foxyform
+                  script(type='text/javascript').
+                    (function(d, t){
+                    var g = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+                    g.src = "http://www.foxyform.com/js.php?id=792227&sec_hash=8fb75579f88&width=350px";
+                    s.parentNode.insertBefore(g, s);
+                    }(document, "script"));
+                  // Do not change the code!
+              .modal-footer
+                button#close.btn.btn-primary(type='button', data-dismiss='modal') Close
+        p.question 4. What if I don’t like the teacher you sent to our home?
+        p
+          | A. In that case we will send another teacher. You have the right to accept or reject any teacher. You should select the teacher only when you are completely satisfied.
+        p.question 5. So does that mean I can meet any number of teacher?
+        p
+          | A. We will give you two free meetings. After the first meeting, our counsellor will get in touch with to note down your problems and specific requirements. This is because, each meeting involves travel and time commitment from the tutor.
+        p.question 6. If I start classes with a tutor. Do I need to stick to the same tutor?
+        p
+          | A. No you can request tutor replacement at any point of time. You can talk to our counsellor and explain him/her the problems. Tutor replacement will take 2-3 days depending on the availability in your area.
+        p.question 7. Is it safe to trust a stranger with our child?
+        p
+          | A. We advise students to take the classes in presence of parent/guardians.  We do not guarantee any safety.
+        p.question 8. How do you ensure high quality tutors?
+        p
+          | A. We do quality check on all of our tutors. Though in some case your requirement may be different so you may not find a tutor suitable. In that scenario, we will provide you another tutor.

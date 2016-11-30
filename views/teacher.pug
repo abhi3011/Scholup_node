@@ -1,0 +1,72 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='description', content='Home tuition in varanasi. Home tuition with coaching like facilities:\
+    1. At SCHOLUP we provide students with specialized teachers according to their requirement. If a student wants to study more than subject then we arrange teachers which are best for individual subjects.\
+    2. If you are not satisfied with the tutor you can change him/her at any point of time.\
+    3. We provide monthly test papers and assessment.')
+    meta(http-equiv='Content-Type', content='text/html; charset=ISO-8859-1')
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    // jQuery library
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
+    // Latest compiled JavaScript
+    script(src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    title FAQ
+    link(type='text/css', rel='stylesheet', href='public/new.css')
+  body
+    .jumbotron
+      h1#heading FREQUENTLY ASKED QUESTIONS
+    .wrap
+      .text
+        p.question
+          b 1. What is Scholup?
+        p
+          | A. Scholup provides quality home tuition. We provide tutors who come to your home and help your child build a strong foundation in various subjects.
+        p.question
+          b 2. Do I have to travel to student’s home and teach?
+        p
+          | A. Yes, in most of the cases. Depending on the choice of students if they wish to learn in a group and are ready to travel then you can have more students in the same time frame.
+        p.question 3. How can I register?
+        p
+          | A. Registration is only done offline, you can fill out 
+          a#form(data-toggle='modal', data-target='#myModal') this
+          |  form and we will get in touch with you, or you can call us at 7571085304. After that you have to submit education certificate, id proof, address proof and a passport size photo in person.
+        #myModal.modal.fade(role='dialog')
+          .modal-dialog
+            // Modal content
+            .modal-content
+              .modal-header
+                button.close(type='button', data-dismiss='modal') ×
+                h4.modal-title Happy to hear from you
+              .modal-body
+                #foxyform
+                  // mailing code!
+                  a#foxyform_embed_link_792227(align='center', href='http://www.foxyform.com/') foxyform
+                  script(type='text/javascript').
+                    (function(d, t){
+                    var g = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+                    g.src = "http://www.foxyform.com/js.php?id=792227&sec_hash=8fb75579f88&width=350px";
+                    s.parentNode.insertBefore(g, s);
+                    }(document, "script"));
+                  // Do not change the code!
+              .modal-footer
+                button#close.btn.btn-primary(type='button', data-dismiss='modal') Close
+        p.question 4. What happens after registration? How do I get students?
+        p
+          | A. We will notify when there is a student seeking tuition. First you will need to have a small meeting with the student and parents. If the student chooses to takes tuition from you, you can start at any time selected mutually by you and the student.
+        p.question 5. How much distance would I have to travel to give tuitions?
+        p
+          | A. You can choose how much distance you want to travel. You will specify the distance you can travel from your address in your form. And we will only give you tuitions according to your preference.
+        p.question 6. Is there any teaching method which I have to follow?
+        p
+          | A. There is no specific teaching method which you have to follow. You should assess this according to the student’s needs and his/her pace of learning. Accordingly we will provide test and practice worksheets for the students.
+        p.question
+          | 7. Do I have to prepare the worksheets and test papers? And do I have to check the test papers?
+        p
+          | A. The papers and worksheets are prepared by a team at Scholup with active inputs from the teachers as well.
+          | The test papers are checked by you and then by our team to ensure a fixed pattern.
+        p.question 8. How will I get paid?
+        p
+          | A. You can select the mode of payment (Check, cash or account deposit) as per your convenience.

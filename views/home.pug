@@ -1,0 +1,129 @@
+doctype html
+html(lang='en')
+  head
+    title Scholup : Home tuition in Varanasi
+    meta(charset='UTF-8')
+    meta(name='description', content='Home tuition in varanasi. Home tuition with coaching like facilities:\
+    1. At SCHOLUP we provide students with specialized teachers according to their requirement. If a student wants to study more than subject then we arrange teachers which are best for individual subjects.\
+    2. If you are not satisfied with the tutor you can change him/her at any point of time.\
+    3. We provide monthly test papers and assessment.')
+    meta(name='keywords', content='home tuition, home teacher, home tutor, Varanasi tuition')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    link(rel='shortcut icon', href='public/favicon.ico', type='image/x-icon')
+    link(rel='shortcut icon', href='public/favicon.ico')
+    // Latest compiled and minified CSS
+    link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    // jQuery library
+    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
+    // Latest compiled JavaScript
+    script(type='text/javascript', src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+    script(type='text/javascript', src='https://use.fontawesome.com/fc70f154bf.js')
+    link(type='text/css', rel='stylesheet', href='public/scholup.css')
+    script(type='text/javascript', src='public/smooth-scroll.js')
+  body
+    .wrapper
+      .title
+        nav#home.navbar.navbar-default.navbar-fixed-top
+          .container-fluid
+            // Brand and toggle get grouped for better mobile display
+            .navbar-header
+              button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='#')
+                b SCHOLUP
+            // Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li
+                  a(data-scroll='', href='#home') HOME
+                li
+                  a(data-scroll='', href='#about_us') ADVANTAGES
+                li.teacher_form_div
+                  a(href='./tutor_form.pdf', download='') DOWNLOAD REGISTRATION FORM
+                li
+                  a(data-scroll='', href='#teacher') TEACHERS
+                li
+                  a(data-scroll='', href='#FAQ') FAQ
+                li
+                  a(data-scroll='', href='#contact') CONTACT
+            // /.navbar-collapse
+          // /.container-fluid
+      .jumbotron.jumbotron-1
+        br
+        br
+        br
+        br
+        h1#heading A RELIABLE WAY TO GET HOME TUITION
+        br
+        br
+        br
+        h2#heading2 Give us a call at:
+        h2#heading3 7571085304
+        h3#heading4 Or
+        #mailme(align='center')
+          button#btn_mail.btn.btn-info.btn-lg(type='button', data-toggle='modal', data-target='#myModal') Mail us
+        h3#heading5 Download
+        div(align='center')
+          button#btn_dwn.btn.btn-info.btn-lg(type='button') Free practice worksheets
+      #about_us.container-fluid
+        .row.no-pad
+          .col-sm-6.col-md-4
+            #fa(align='center')
+              i.fa.fa-check.fa-5x(aria-hidden='true')
+              .caption
+                h1(align='center') Quality Check
+                br
+                p#small We do a thorough quality check
+                p#small on tutors education and experience
+          .col-sm-6.col-md-4
+            #fa(align='center')
+              i#exchange.fa.fa-refresh.fa-5x(aria-hidden='true')
+              .caption
+                h1(align='center') Monitoring
+                br
+                p#small Teacher will be changed if the student is not satisfied
+                p#small If the teacher leaves we will provide you the replacement
+          .col-sm-6.col-md-4
+            #fa(align='center')
+              i.fa.fa-pencil.fa-5x(aria-hidden='true')
+              .caption
+                h1(align='center') Test
+                br
+                p#small Weekly test sheets and progress assessment
+        br
+      #teacher.jumbotron.jumbotron-2
+        h1#heading For tutors
+        br
+        p#heading Teach the subjects you are most comfortable with
+        p#heading No need to teach every subject
+        p#heading No hustle searching students
+        div(align='center')
+          button#tut_mail.btn.btn-info.btn-lg(type='button', data-toggle='modal', data-target='#myModal') Contact us
+        p
+        .teacher_form_div(div='', align='center')
+          a(href='./tutor_form.pdf', download='')
+            button#teacher_form.btn.btn-info.btn-lg(type='button') Download Registration Form
+      #FAQ.jumbotron.jumbotron-3
+        div(align='center')
+          h1#faq_head Frequently asked questions
+        #faq_bucket
+          .col-xs-6
+            div(align='center')
+              p#st_faq
+                a#st_faq1.btn.btn-primary.btn-lg(href='#', role='button') Student FAQ's
+          .col-xs-6
+            div(align='center')
+              p#tch_faq
+                a#tch_faq1.btn.btn-primary.btn-lg(align='center', href='#', role='button') Teacher FAQ's
+      .jumbotron.jumbotron-4
+        #contact.col-xs-8.pull-left.text-left
+          a#fb_but.btn.btn-facebook(href='#')
+            i.fa.fa-facebook-official.fa-3x(aria-hidden='true')
+          a#gm_but.btn.btn-gmail(href='#')
+            i.fa.fa-google.fa-3x(aria-hidden='true')
+  script(type='text/javascript').
+    smoothScroll.init();
+  script(type='text/javascript', src='public/main.js')
